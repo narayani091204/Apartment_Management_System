@@ -16,11 +16,11 @@ export default defineConfig({
       // Proxy API + socket.io to the backend during development so the
       // frontend can call relative URLs (/api/...) without CORS friction.
       '/api': {
-        target: 'http://localhost:7000',
+        target: 'http://localhost:5000',
         changeOrigin: true,
       },
       '/socket.io': {
-        target: 'http://localhost:7000',
+        target: 'http://localhost:5000',
         ws: true,
         changeOrigin: true,
       },
