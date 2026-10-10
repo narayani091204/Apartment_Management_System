@@ -69,7 +69,7 @@ cd Apartment_Management_System
 ```bash
 cd backend
 npm install
-cp .env.example .env
+cp.env
 npm run seed
 npm run dev
 ```
